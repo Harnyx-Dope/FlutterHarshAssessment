@@ -10,9 +10,9 @@ void main() {
       // ignore: prefer_const_constructors
       home: HomeScreen(),
       routes: {
-        'S0': (context) => Screen0(title: "Settings"),
+        'S0': (context) => Screen0(title: "login"),
         'S1': (context) => Screen1(
-              title: 'Gallery',
+              title: 'validationpage',
             ),
       },
     ),
